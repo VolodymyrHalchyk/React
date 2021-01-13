@@ -1,12 +1,7 @@
 import React, {Component} from 'react';
 import {UsersServices} from "../services/UsersServices";
 import User from "../User/User";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import {Route, Switch} from "react-router-dom";
 
 class AllUsers extends Component {
 
